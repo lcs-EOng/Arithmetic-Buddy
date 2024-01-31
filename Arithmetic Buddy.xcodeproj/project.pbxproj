@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2698BC1E2B6AAFF600FB30FE /* Arithmetic_BuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2698BC1D2B6AAFF600FB30FE /* Arithmetic_BuddyApp.swift */; };
-		2698BC202B6AAFF600FB30FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2698BC1F2B6AAFF600FB30FE /* ContentView.swift */; };
 		2698BC222B6AAFFB00FB30FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2698BC212B6AAFFB00FB30FE /* Assets.xcassets */; };
 		2698BC252B6AAFFB00FB30FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2698BC242B6AAFFB00FB30FE /* Preview Assets.xcassets */; };
+		2698BC2C2B6AB03900FB30FE /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2698BC2B2B6AB03900FB30FE /* AdditionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2698BC1A2B6AAFF600FB30FE /* Arithmetic Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arithmetic Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2698BC1D2B6AAFF600FB30FE /* Arithmetic_BuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arithmetic_BuddyApp.swift; sourceTree = "<group>"; };
-		2698BC1F2B6AAFF600FB30FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2698BC212B6AAFFB00FB30FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2698BC242B6AAFFB00FB30FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2698BC2B2B6AB03900FB30FE /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,8 @@
 		2698BC1C2B6AAFF600FB30FE /* Arithmetic Buddy */ = {
 			isa = PBXGroup;
 			children = (
+				2698BC2B2B6AB03900FB30FE /* AdditionView.swift */,
 				2698BC1D2B6AAFF600FB30FE /* Arithmetic_BuddyApp.swift */,
-				2698BC1F2B6AAFF600FB30FE /* ContentView.swift */,
 				2698BC212B6AAFFB00FB30FE /* Assets.xcassets */,
 				2698BC232B6AAFFB00FB30FE /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2698BC202B6AAFF600FB30FE /* ContentView.swift in Sources */,
+				2698BC2C2B6AB03900FB30FE /* AdditionView.swift in Sources */,
 				2698BC1E2B6AAFF600FB30FE /* Arithmetic_BuddyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
